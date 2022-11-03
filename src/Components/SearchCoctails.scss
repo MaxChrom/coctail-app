@@ -1,0 +1,25 @@
+.coctail-card {
+  margin: 5rem 1rem 5rem;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  height: 20rem;
+
+  &-info {
+    width: 30%;
+    padding: 1rem;
+  }
+  &-desc {
+    width: 70%;
+    padding: 1rem;
+    text-align: center;
+    align-self: center;
+  }
+  & img {
+    max-width: 70%;
+    max-height: auto;
+    border-radius: 15px;
+  }
+}
